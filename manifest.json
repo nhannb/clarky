@@ -1,0 +1,16 @@
+{
+    "name": "ShopBuddy",
+    "description": "Toolkit for common Shopee tasks",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    // "options_page": "options.html",
+
+    "permissions": ["storage", "scripting"],
+    "host_permissions": ["https://banhang.shopee.vn/*"]
+}
